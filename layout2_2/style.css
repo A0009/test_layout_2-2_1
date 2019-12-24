@@ -6,9 +6,49 @@ body {
 
 .page_header {
     background: url('../layout2_2/img/first-bg_cr.png') no-repeat center top / cover;
-    height: 700px;
+    height: 100vh;
+    color: white;
+    text-transform: uppercase;
+}
+
+.page_header li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 30px;
 }
 
 .container {
     width: 930px;
+    margin: 0 auto;
+}
+
+.menu {
+    float: right;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 47px;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.page_header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.title_text {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
 }
