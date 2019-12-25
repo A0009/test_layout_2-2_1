@@ -105,9 +105,10 @@ h2 {
     text-align: center;
 }
 
-.services p {
+.title_elements p {
     text-align: center;
     margin: 0;
+    color: darkgray;
 }
 
 .ourservices {
@@ -132,6 +133,16 @@ h2 {
 
 .service__item:nth-child(2) {
     margin: 0 80px;
+}
+
+.portfolio {
+    background-color: #f7f7f7;
+    padding: 120px 0;
+}
+
+.portfolio__images {
+    margin-top: 75px;
+    text-align: center;
 }
 
 
