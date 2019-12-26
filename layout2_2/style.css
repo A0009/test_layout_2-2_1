@@ -13,6 +13,7 @@ h6 {
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .page__header {
@@ -145,5 +146,58 @@ h2 {
     text-align: center;
 }
 
+.portfolio__images img:nth-child(2) {
+    margin: 0 28px;
+}
 
-/*  */
+.about__item {
+    margin: 90px 55px;
+    width: 500px;
+    text-align: right;
+    display: block;
+}
+
+.about__item h5 {
+    text-transform: none;
+}
+
+.about__item p {
+    width: 300px;
+    font-size: 14px;
+    color: gray;
+}
+
+.about__item img {
+    float: right;
+    display: block;
+}
+
+.about__item-desc {
+    display: block;
+    float: left;
+}
+
+.about__item:nth-of-type(even) .about__item-desc {
+    float: right;
+}
+
+.about__item:nth-of-type(even) img {
+    float: left;
+}
+
+.about__item:nth-of-type(even) {
+    text-align: left;
+    float: right;
+}
+
+.copyright {
+    display: block;
+}
+
+.clearfix:after {
+    /*  */
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
