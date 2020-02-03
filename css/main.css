@@ -79,6 +79,11 @@ h2 {
 .pictures {
     margin-top: 100px;
     margin-bottom: 100px;
+    display: flex;
+}
+
+.pictures img {
+    margin: 5px;
 }
 
 .btn {
@@ -103,4 +108,23 @@ footer {
 footer p a {
     color: white;
     float: right;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 768px;
+    }
+    .pictures {
+        flex-direction: column;
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 460px;
+    }
+    .service__item {
+        margin: 5px;
+    }
 }

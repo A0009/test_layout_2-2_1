@@ -168,3 +168,44 @@ h2 {
     width: 100%;
     clear: both;
 }
+
+footer {
+    background: lightgray;
+    height: 100px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+    h1 {
+        font-size: 50px;
+    }
+    .container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        width: 480px;
+    }
+    .logo {
+        visibility: hidden;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .about__item:nth-of-type(odd) {
+        flex-direction: row-reverse;
+        text-align: left;
+        justify-content: right;
+    }
+    .about__item p {
+        width: 200px;
+    }
+}
